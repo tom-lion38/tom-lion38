@@ -1,58 +1,50 @@
-<h1 align="center">Tom Lion</h1>
-<h3 align="center">Futur BTS CIEL – Infrastructure IT • Systèmes • Réseaux</h3>
+```
+    _~^~^~_
+  \) /  o o  \ (/   Tom Lion · « crabzzz »
+    '_   ¬   _'     STI2D SIN → BTS CIEL
+    | '-----' |      systèmes · réseaux · self-hosting
+```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Domaine-Infrastructure%20IT-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Systèmes-Windows%20%7C%20Linux-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Virtualisation-Proxmox-orange?style=for-the-badge" />
-</p>
+Je vise l'administration systèmes et réseaux, et une place dans une équipe IT
+structurée. L'essentiel de ce que je sais, je l'ai appris sur mon homelab : une
+infra que je casse, répare et documente pour comprendre ce qui tient debout, et
+pourquoi. J'aime quand c'est propre, segmenté, et que je peux le reconstruire de
+mémoire.
 
----
+```
+tom@crabzzz
+-----------
+role ........ apprenti sysadmin (systèmes & réseaux)
+formation ... STI2D SIN → BTS CIEL (cyber, informatique, réseaux, électronique)
+lab ......... Proxmox VE · une quinzaine de LXC + VMs · stockage ZFS
+network ..... VLANs sur Catalyst 3850 (IOS-XE) · DHCP/DNS internes · VPN distant
+services .... reverse proxy Caddy (TLS auto) · supervision Grafana
+online ...... crabzzz.fr
+```
 
-## 👋 À propos
-Étudiant en **STI2D (SIN)**, futur **BTS CIEL (Informatique & Réseaux)**.  
-Orientation claire vers l’**infrastructure IT**, l’**administration systèmes** et les **réseaux**.
+### Ce que je sais faire
 
-Intéressé par des environnements **fiables, sécurisés et supervisés**, proches des contraintes réelles d’une entreprise : disponibilité des services, rigueur, sécurité et documentation.
+| Réseau | Systèmes & virtualisation |
+| :-- | :-- |
+| VLAN · DHCP · DNS · routage | Windows Server · AD DS · GPO · WDS |
+| NAT · pare-feu · VPN | Linux — Debian, Arch |
+| analyse de trafic (Wireshark) | Proxmox VE · LXC · VMs · réseaux virtuels |
+| segmentation · Catalyst 3850 | Grafana · Prometheus · Zabbix |
+| | PowerShell · Bash · Python · C (notions) |
 
----
+### Dépôts
 
-## 🧠 Compétences techniques
+- **[homelab-proxmox-docs](https://github.com/tom-lion38/homelab-proxmox-docs)** — la doc du lab, anonymisée : topologie, VLANs, choix d'archi.
+- **[windows-server-lab](https://github.com/tom-lion38/windows-server-lab)** — AD DS, GPO, déploiement d'images par WDS.
+- **[it-scripts](https://github.com/tom-lion38/it-scripts)** — mes scripts d'admin PowerShell / Bash / Python du quotidien.
 
-### 🌐 Réseaux
-- VLAN, DHCP, DNS  
-- Routage, NAT, firewall  
-- VPN, analyse de trafic (Wireshark)
+```
+status
+  homelab ......... up
+  reverse-proxy ... up   (tls: ok)
+  supervision ..... up
+  vpn ............. standby
+  uptime .......... apprend tous les jours
+```
 
-### 🖥️ Systèmes
-- **Windows Server** : AD DS, GPO, WDS  
-- **Linux** : administration système, services
-
-### ☁️ Virtualisation & Infrastructure
-- **Proxmox VE** (VM / CT)  
-- Réseaux virtuels, hébergement de services
-
-### 📊 Supervision & Automatisation
-- Grafana, Prometheus, Zabbix  
-- PowerShell, Bash  
-- Python / C (notions)
-
----
-
-## 🧪 Projets personnels
-- **Homelab Proxmox** : services auto-hébergés, VPN, supervision, automatisation  
-- **Lab Windows Server** : AD DS, GPO, WDS, déploiement de postes  
-- **Dashboard interne** : accès centralisé aux services IT
-
-> Tous les projets publiés sont **anonymisés** et pensés comme des laboratoires proches d’un contexte professionnel.
-
----
-
-## 🎯 Objectif
-Développer des compétences solides en **administration systèmes et réseaux**  
-et évoluer dans un environnement IT structuré (industrie / entreprise).
-
----
-
-📫 **Contact**  
-**Email** : tom.lion@outlook.fr
+Le site → **[crabzzz.fr](https://crabzzz.fr)** · Écrire → **tom.lion@outlook.fr**
