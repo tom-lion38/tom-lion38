@@ -50,7 +50,7 @@ allumer et éteindre les sites, une appli Android qui affiche l'état du lab.
 
 crabzzz.fr est mon site, et plusieurs sous-domaines servent mes projets. J'ai
 monté des sites pour de petites entreprises (restauration, rénovation, bâtiment),
-un outil pour Destiny 2 et des pages autour de Magic, dont mgic-index.
+un outil pour Destiny 2 et magic-index, un classeur en ligne de mes decks Magic.
 
 TL Network est ma micro-entreprise : dépannage et supervision à distance pour les
 particuliers. Elle a son site, un serveur RustDesk que j'héberge moi-même et sa
@@ -74,8 +74,12 @@ serveur.
 
 ### Dépôts
 
-- [homelab-proxmox-docs](https://github.com/tom-lion38/homelab-proxmox-docs) : la doc du lab, anonymisée.
-- [windows-server-lab](https://github.com/tom-lion38/windows-server-lab) : AD DS, GPO, déploiement d'images avec WDS.
-- [it-scripts](https://github.com/tom-lion38/it-scripts) : mes scripts d'admin en PowerShell, Bash et Python.
+- [homelab-proxmox-docs](https://github.com/tom-lion38/homelab-proxmox-docs) : la doc du lab, anonymisée (réseau, services, sauvegardes, supervision, pannes).
+- [proxmox-scripts](https://github.com/tom-lion38/proxmox-scripts) : post-installation, création de CT, contrôle des sauvegardes, alertes.
+- [phare](https://github.com/tom-lion38/phare) : interface web pour gérer les sites du lab (CT, Caddy, déploiement).
+- [abysse](https://github.com/tom-lion38/abysse) : carte 3D du homelab qui bouge en direct.
+- [rack-scroll](https://github.com/tom-lion38/rack-scroll) : l'animation du rack qui se construit au scroll sur tlnetwork.fr, expliquée.
+- [windows-server-lab](https://github.com/tom-lion38/windows-server-lab) : AD DS, GPO, déploiement de postes par WDS en PXE.
+- [it-scripts](https://github.com/tom-lion38/it-scripts) : scripts d'installation (OpenVPN, WireGuard, Samba, Plex).
 
 Le site : [crabzzz.fr](https://crabzzz.fr) · Écrire : tom.lion@outlook.fr
